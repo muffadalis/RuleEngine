@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard.RuleEngine", "Wizard.RuleEngine\Wizard.RuleEngine.csproj", "{963C3BB2-CCDE-4704-BCA6-A5DF4FCFD80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard.RuleEngine.TestHarness", "Wizard.RuleEngine.TestHarness\Wizard.RuleEngine.TestHarness.csproj", "{B8608ED3-469F-45F0-8F3F-FF6235A0781C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizard.RuleEngine.TestWeb", "Wizard.RuleEngine.Web\Wizard.RuleEngine.TestWeb.csproj", "{1A604BE6-BBF8-409A-BF83-A003DA675E98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{132EECF4-2010-4AC6-BDCD-B36C5C838AC8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{963C3BB2-CCDE-4704-BCA6-A5DF4FCFD80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963C3BB2-CCDE-4704-BCA6-A5DF4FCFD80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963C3BB2-CCDE-4704-BCA6-A5DF4FCFD80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963C3BB2-CCDE-4704-BCA6-A5DF4FCFD80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8608ED3-469F-45F0-8F3F-FF6235A0781C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8608ED3-469F-45F0-8F3F-FF6235A0781C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8608ED3-469F-45F0-8F3F-FF6235A0781C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8608ED3-469F-45F0-8F3F-FF6235A0781C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A604BE6-BBF8-409A-BF83-A003DA675E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A604BE6-BBF8-409A-BF83-A003DA675E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A604BE6-BBF8-409A-BF83-A003DA675E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A604BE6-BBF8-409A-BF83-A003DA675E98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

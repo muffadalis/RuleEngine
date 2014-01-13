@@ -1,0 +1,27 @@
+﻿#ide {
+    width: 100%;
+    margin:0;
+}
+tr, td, pre {
+    margin: 0;
+}
+.toolbox {
+    width: 15%;
+    border-right:1px solid black;
+}
+.properties {
+    width: 15%;
+    border-left:1px solid black;
+}
+.center {
+    width: 70%;
+}
+
+#code-editor { 
+         position: absolute;
+    top:  0px;
+    left: 280px;
+    bottom: 0px;
+    right: 0px;
+    background: white;
+    }

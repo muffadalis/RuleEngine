@@ -1,0 +1,5 @@
+﻿if @tag1 then
+	premium = @tag1 * @tag2 * 2.5
+else
+	Decision = refer
+endif
